@@ -22,6 +22,8 @@
 		7086624F1757F4ED0088A596 /* DVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086624E1757F4ED0088A596 /* DVDetailViewController.m */; };
 		708662521757F4ED0088A596 /* DVMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708662501757F4ED0088A596 /* DVMasterViewController.xib */; };
 		708662551757F4ED0088A596 /* DVDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708662531757F4ED0088A596 /* DVDetailViewController.xib */; };
+		70866260175802B90088A596 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086625F175802B90088A596 /* Event.m */; };
+		70866263175802B90088A596 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 70866262175802B90088A596 /* Owner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		7086624E1757F4ED0088A596 /* DVDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDetailViewController.m; sourceTree = "<group>"; };
 		708662511757F4ED0088A596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVMasterViewController.xib; sourceTree = "<group>"; };
 		708662541757F4ED0088A596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVDetailViewController.xib; sourceTree = "<group>"; };
+		7086625E175802B90088A596 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		7086625F175802B90088A596 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		70866261175802B90088A596 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		70866262175802B90088A596 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 				7086624E1757F4ED0088A596 /* DVDetailViewController.m */,
 				708662501757F4ED0088A596 /* DVMasterViewController.xib */,
 				708662531757F4ED0088A596 /* DVDetailViewController.xib */,
+				7086625E175802B90088A596 /* Event.h */,
+				70866261175802B90088A596 /* Owner.h */,
+				70866262175802B90088A596 /* Owner.m */,
+				7086625F175802B90088A596 /* Event.m */,
 				708662471757F4ED0088A596 /* CoreData_NSFetchedResultsController_experiment.xcdatamodeld */,
 				708662361757F4ED0088A596 /* Supporting Files */,
 			);
@@ -195,6 +205,8 @@
 				708662491757F4ED0088A596 /* CoreData_NSFetchedResultsController_experiment.xcdatamodeld in Sources */,
 				7086624C1757F4ED0088A596 /* DVMasterViewController.m in Sources */,
 				7086624F1757F4ED0088A596 /* DVDetailViewController.m in Sources */,
+				70866260175802B90088A596 /* Event.m in Sources */,
+				70866263175802B90088A596 /* Owner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData NSFetchedResultsController experiment/CoreData NSFetchedResultsController experiment-Prefix.pch";
 				INFOPLIST_FILE = "CoreData NSFetchedResultsController experiment/CoreData NSFetchedResultsController experiment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,6 +314,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData NSFetchedResultsController experiment/CoreData NSFetchedResultsController experiment-Prefix.pch";
 				INFOPLIST_FILE = "CoreData NSFetchedResultsController experiment/CoreData NSFetchedResultsController experiment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -325,6 +339,7 @@
 				7086625A1757F4ED0088A596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
