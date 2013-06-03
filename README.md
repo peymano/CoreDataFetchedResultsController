@@ -6,8 +6,9 @@ A sample app that demonstrates a bug in CoreData using an NSFetchedResultsContro
 Steps to reproduce the bug:
 
 1. Run the sameple app (based on CoreData template)
-2. tap the "+/-1" button in the lower left
-3. tap the "refresh" button in the lower-right
+1. Tap "+" a few times to add some entries to the table
+1. tap the "+/-1" button in the lower left
+1. tap the "refresh" button in the lower-right
 
 Expected Results:
 
